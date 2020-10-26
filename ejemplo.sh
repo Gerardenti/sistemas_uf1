@@ -1,8 +1,2 @@
- ___________
-< ola k ase >
- -----------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+cowsay ola k ase
+echo esto es un echo

@@ -3,5 +3,10 @@
 echo "Ejercicio de bucles y MD5"
 
 for VARIABLE in `ls *.mp4`; do
-	md5sum $VARIABLE | cowsay
+	echo "-----------------------------"
+	VIDEO=`file $VARIABLE | grep Media`
+	echo $VIDEO
+	if [ "$VIDEO" != "" ]; then
+		md5sum $VARIABLE
+	fi
 done
